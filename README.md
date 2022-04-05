@@ -1,1 +1,2 @@
-# plataformas-moviles-entregas
+--- Es un repositorio hecho para almacenar todas las tareas relacionadas con la materia, Plataformas Moviles
+--- Links al pages
