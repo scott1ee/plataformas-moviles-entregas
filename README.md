@@ -4,4 +4,4 @@
 --- Links a las pages
 
 
-scott1ee.github.io/plataformas-moviles-entregas/tp-1/index.html
+scott1ee.github.io/plataformas-moviles-entregas
