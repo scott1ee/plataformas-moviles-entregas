@@ -1,0 +1,63 @@
+* {
+    background-color: #222;
+    color: #ee6;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: #eee;
+}
+
+strong {
+    border-bottom: 1px #fff solid;
+}
+
+.the-force {
+    background-color: #444;
+    font-weight: bold;
+}
+
+.light-side {
+    color: #66f;
+}
+
+.dark-side {
+    color: #f33;
+}
+
+#og-trilogy {
+    list-style-type: circle;
+}
+
+.movies-list,
+[ul],
+[li],
+[a],
+[href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_I_-_La_amenaza_fantasma"] {
+    padding-left: 50px;
+}
+
+.movies-list,
+[ul],
+[li],
+[a],
+[href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_II_-_El_ataque_de_los_clones"] {
+    padding-left: 50px;
+}
+
+.movies-list,
+[ul],
+[li],
+[a],
+[href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_III_-_La_venganza_de_los_Sith"] {
+    padding-left: 50px;
+}
