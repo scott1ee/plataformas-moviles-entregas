@@ -1,0 +1,81 @@
+@media(min-width: 400px) {
+    p {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width: 300px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media(min-width: 200px) and (max-width: 400px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media(min-width: 400px) {
+    .container {
+        width: 390px;
+    }
+}
+
+@media only screen {
+    .container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+}
+
+@media all {
+    body {
+        background-color: #ddccaa;
+    }
+}
+
+@media not (color) {
+    #wikipedia-logo {
+        visibility: hidden;
+    }
+}
+
+@media (hover: hover) {
+    blockquote {
+        background-color: #ccddaa;
+    }
+    /* este query no funciona en internet explorer, firefox 2-63, chrome 4-37, safari 3.1-8, Opera 10-27, Safari en IOs 3.2-8.4
+    Andorid browser 2.1-4.4.4, Opera Mobile 12-12.1, Samsung Internet 4*/
+}
+
+@media (aspect-ratio: 1/1) {
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+
+@media not(color),
+(width: 768px) and (height: 1024px),
+(aspect-ratio: 1/1) {
+    p {
+        color: red;
+    }
+}
