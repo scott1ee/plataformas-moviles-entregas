@@ -1,0 +1,71 @@
+body {
+    background-color:  #0749bc;
+    color: black;
+    font-family: 'Jost', sans-serif;
+}
+
+.card {
+    background:#e2e6f0;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    background:#e2e6f0;
+    border:  #000000 3px solid;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+
+.tarjetaGiratoria:hover .card-container {
+    transform: rotateX(180deg);
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+.card-back {
+    width: 100%;
+    height: 100%;
+    transform: rotateX(180deg);
+    position: absolute;
+    top: 0%;
+    padding-top: 25px;
+    text-align: center;
+    backface-visibility: hidden;
+}
+
+.card-back p {
+    margin-top: 10px;
+}
+
+.id {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    text-shadow: #000000 2px 1px;
+}
+
+.img-container {
+    width: 120px;
+    margin: 10px 110px;
+    background-color: #ffffff;
+    border: #000000 2px solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.pagination {
+    width: 90%;
+    margin-top: 5px;
+    padding-left: 250px;
+}
+
+.col-lg-4 {
+    padding-top: 23px;
+}
